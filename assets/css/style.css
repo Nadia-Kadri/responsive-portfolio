@@ -218,5 +218,22 @@ input[type="submit"]:hover {
     #portfolio {
         width: 295px;
         height: 295px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profile {
+        width: 315px;
+        height: 315px;
+        float: none;
+        margin-bottom: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smallcenterheader {
+        text-align: center;
     }
 }
