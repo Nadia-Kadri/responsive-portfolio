@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    background-image: url(../images/white_background.jpg);
+}
+
+.nav-1, .nav-4 {
+    background-color:rgba(176, 233, 176, 0.767);
+    color: rgba(176, 233, 176, 0.767);
+    float: left;
+    width: 15%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+}
+
+.nav-2 {
+    background-color: grey;
+    color: white;
+    float: left;
+    width: 20%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-3 {
+    background-color: rgba(176, 233, 176, 0.767);
+    float: left;
+    width: 50%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+.clr {
+    clear:both;
+}
+
+
+.container {
+    background: rgb(238, 238, 238);
+    border: 2px grey solid;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+p {
+    margin: 25px;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#profile {
+    float: left;
+    margin: 25px;
+}
+
+a:hover {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 10px rgba(176, 233, 176, 0.767) solid;
+}
+
+
+form {
+    padding: 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], 
+textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: grey;
+}
+
+
+#portfolio {
+    margin: 25px;
+    border: 2px grey solid;
+    padding-top: 10px;
+}
