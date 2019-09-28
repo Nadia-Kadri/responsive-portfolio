@@ -3,6 +3,33 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.customfooter, .page-wrap:after {
+    height: 40px;
+}
+
+.customfooter {
+    padding-top: 20px;
+    border-top: 8px solid rgba(176, 233, 176, 0.767);
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: -1px;
+}
 
 body {
     background-color: #f4f4f4;
@@ -91,19 +118,6 @@ a {
 }
 
 
-footer {
-    background-color: grey;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: 10px rgba(176, 233, 176, 0.767) solid;
-}
-
-
 form {
     padding: 20px;
 }
@@ -115,6 +129,9 @@ form {
 
 label {
     display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    margin-bottom: 3px;
 }
 
 input[type="text"], 
@@ -132,6 +149,8 @@ input[type="submit"]{
     color: #fff;
     padding: 10px 15px;
     border: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
 }
 
 input[type="submit"]:hover {
